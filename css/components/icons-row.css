@@ -1,0 +1,44 @@
+.icons-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-bottom: 25px;
+  border-bottom: var(--border);
+}
+
+.icons-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons-row__icon i {
+  color: var(--main-color);
+  margin-bottom: 30px;
+}
+
+.icons-row__icon span {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.more-icons {
+  border-bottom: var(--border);
+}
+
+.more-icons .icons-row {
+  border: none;
+}
+
+.more-icons .icons-row:last-child {
+  justify-content: space-between;
+}
+
+.recommended-friends__title {
+  color: var(--sub-text);
+}
+
+.recommended-friends__text span {
+  color: var(--main-color);
+  font-weight: 600;
+}

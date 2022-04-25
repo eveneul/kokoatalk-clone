@@ -1,0 +1,38 @@
+.chats-friends {
+  display: flex;
+  padding: 10px 30px;
+}
+
+.chats-friends__list {
+  margin-right: 20px;
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.2));
+  transition: transform 0.2s ease-in-out;
+}
+
+.chats-friends__list:hover {
+  transform: scale(1.2);
+}
+
+.chats-friends__list img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chats-friends__list .search {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+}
+
+.chats-friends__list .search i {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+}

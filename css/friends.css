@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+.status__content {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.friends-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 28vh;
+  padding: var(--padding);
+  padding-top: 40px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, #007355 78%);
+}
+
+.friends-header__user {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.friends-header__user--greeting {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.friends-header__user--title {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.friends-header__user--text {
+  font-size: 14px;
+}
+
+.friends-header__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color);
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.friends-btn__btns {
+  padding: 14px;
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.friends-btn__btns:not(:last-child) {
+  margin-right: 10px;
+}
+
+.friends-btn__btns:nth-child(2) i {
+  transform: translateX(-1px);
+}
+
+.friends-btn__btns:last-child i {
+  transform: translateX(1px);
+}
+
+.friends-btn__btns:hover {
+  background-color: #fff;
+  color: var(--main-color);
+}
+
+.friends-btn__btns:active {
+  transform: scale(0.97);
+}
+
+.friends-list {
+  display: flex;
+  align-items: center;
+  margin: 10px 15px 15px 15px;
+  padding: 10px 10px;
+  background-color: #fff;
+  border-radius: 32px;
+  transition: box-shadow 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.friends-list:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 16px;
+}
+
+.friends-list__col:first-child {
+  margin-right: 10px;
+}
+
+.friends-list__col:last-child {
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friends-list__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.friends-list__img img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  object-fit: cover;
+}
+
+.friends-list__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.friends-list__info h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.friends-list__info span {
+  color: var(--sub-text);
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.friends-list__more {
+  text-align: end;
+}
+
+.friends-list__more i {
+  color: var(--text-color);
+}
+
+.friends-list__more--time {
+  margin-bottom: 6px;
+  color: vaR(--sub-text);
+  font-size: 14px;
+}
+
+.friends-list__more--message {
+  display: inline-block;
+  padding: 4px 7px;
+  border-radius: 50%;
+  background-color: #ff6666;
+  color: #fff;
+  font-size: 10px;
+}
+
+.fa-dove {
+  color: #3879db;
+}
+
+.fa-bug {
+  color: #ff6666;
+}
+
+.fa-dog {
+  color: #007355;
+}

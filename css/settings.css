@@ -1,0 +1,33 @@
+.settings__header {
+  height: 7vh;
+}
+
+.settings__header .main__header--menu i {
+  color: #fff;
+}
+.settings-screen {
+  padding: var(--padding);
+}
+
+.settings__setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+.settings__setting-col i {
+  margin-right: 12px;
+  font-size: 26px;
+}
+
+.settings__setting .settings__setting-col:last-child {
+  color: var(--sub-text);
+}
+
+.settings-list .settings__setting:nth-child(3) {
+  border: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}

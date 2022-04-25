@@ -1,0 +1,33 @@
+.main__header {
+  display: block;
+  width: 100%;
+  height: 16vh;
+  background-color: var(--main-color);
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  box-shadow: rgba(96, 160, 165, 0.2) 0px 7px 29px 0px;
+}
+
+.main__header--menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.main__header--menu i {
+  font-size: 20px;
+}
+
+.main__header--menu h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main__header--menu div i {
+  font-size: 24px;
+  transform: translate(-4px, -1px);
+  color: #fff;
+}

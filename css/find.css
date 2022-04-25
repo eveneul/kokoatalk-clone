@@ -1,0 +1,141 @@
+.find__screen {
+  padding: var(--padding);
+}
+
+.find__header {
+  height: 7vh;
+}
+
+.screen-header__icons span:last-child {
+  position: relative;
+}
+
+.screen-header__icons .circle {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 6px;
+  height: 6px;
+  background-color: tomato;
+  border-radius: 50%;
+}
+
+.recommended-friends {
+  padding: 25px 0;
+  border-bottom: var(--border);
+}
+
+.recommended-friends__title {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.recommended-friends__text {
+  margin: 100px 0;
+  text-align: center;
+  color: var(--text-color);
+  font-size: 18px;
+}
+
+.open-chat {
+  padding: 25px 0;
+}
+
+.open-chat__text {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-color);
+}
+
+.open-chat__text--text span {
+  margin-right: 2px;
+}
+
+.open-chat__text--text i {
+  transform: translateY(1px);
+}
+
+.open-chats__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  border-bottom: var(--border);
+}
+
+.open-chats__content--text {
+  transform: translateY(-10px);
+}
+
+.open-chats__content--title {
+  font-size: 20px;
+  margin-bottom: 7px;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.open-chats__content--subtitle {
+  display: block;
+  font-size: 14px;
+  color: var(--text-color);
+  margin-bottom: 2px;
+}
+
+.main__screen .open-chats__content--subtitle {
+  text-transform: uppercase;
+}
+
+.open-chats__content--info {
+  font-size: 14px;
+}
+
+.open-chats__content--info-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: translateY(4px);
+  margin-right: 6px;
+}
+
+.open-chats__content--members {
+  color: var(--text-color);
+}
+
+.open-chats__content--members::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background-color: var(--text-color);
+  margin: 0 5px;
+}
+
+.open-chats__content--active {
+  color: var(--main-color);
+}
+
+.open-chats__content--img {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.open-chats__content--img img {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+}
+
+.open-chats__content--like {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 14px;
+}
+
+.open-chats__content--like i {
+  color: #ff6666;
+}

@@ -1,0 +1,33 @@
+.status__content {
+  width: 100%;
+  display: flex;
+  color: var(--text-color);
+  padding: 5px;
+}
+
+.status__items {
+  width: 33%;
+}
+
+.status__items--time {
+  font-weight: 500;
+}
+
+.status__content .status__items:first-child span {
+  margin-right: 5px;
+}
+
+.status__content .status__items:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status__content .status__items:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status__content .status__items:nth-child(3) .fa-battery-three-quarters {
+  margin: 0 8px;
+}

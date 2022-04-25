@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.ico" />
+    <title>Chat - Lynn, Nico (3)</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <ul class="status__content">
+        <li class="status__items">
+          <span>Tree</span>
+          <i class="fa-solid fa-tree fa-sm"></i>
+        </li>
+        <li class="status__items">
+          <span class="status__items--time">12:24</span>
+        </li>
+        <li class="status__items">
+          <span>70%</span>
+          <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+          <i class="fa-solid fa-bolt-lightning fa-sm"></i>
+        </li>
+      </ul>
+    </div>
+
+    <header class="main__header chat__header">
+      <div class="main__header--menu chat__header-menu">
+        <a href="./chats.html">
+          <i class="fa-solid fa-angle-left fa-xl"></i>
+        </a>
+        <div class="chat__header--chating">
+          <div class="chat__list--img">
+            <img
+              src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/lynn-1608029862.jpg"
+            />
+          </div>
+          <h4>Lynn, Nico (3)</h4>
+        </div>
+        <div class="chat__list__icons">
+          <i class="fa-solid fa-phone fa-sm"></i>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        <span>Tuseday, June 30, 2020</span>
+      </div>
+
+      <div class="message-row">
+        <img
+          src="https://t2.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/1W2S/image/RbKtS8ExVItcym1NyqH_4_B0aXE.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message-row__content--author">Nico</span>
+          <div class="message-row__content-info">
+            <span class="message__bubble">노마드코더 올 때 뭐 타고 왔어?</span>
+            <span class="message__time">12:20</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message-row__content-info">
+            <span class="message__bubble">난 리듬 타고 옴~</span>
+            <span class="message__time">12:23</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img
+          src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/lynn-1608029862.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message-row__content--author">Lynn</span>
+          <div class="message-row__content-info">
+            <span class="message__bubble">..;;;</span>
+            <span class="message__time">12:24</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="form__col">
+        <button type="button">
+          <i class="fa-solid fa-circle-plus fa-xl"></i>
+        </button>
+      </div>
+      <div class="form__col">
+        <input type="text" placeholder="Write a message.." />
+        <i class="fa-regular fa-face-grin"></i>
+        <button type="button"><i class="fa-solid fa-arrow-up"></i></button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Website is too wide :(</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/dfb8a37dff.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

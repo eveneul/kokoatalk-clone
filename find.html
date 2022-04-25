@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.ico" />
+    <title>Find - TreeTalk</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <ul class="status__content">
+        <li class="status__items">
+          <span>Tree</span>
+          <i class="fa-solid fa-tree fa-sm"></i>
+        </li>
+        <li class="status__items">
+          <span class="status__items--time">12:24</span>
+        </li>
+        <li class="status__items">
+          <span>70%</span>
+          <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+          <i class="fa-solid fa-bolt-lightning fa-sm"></i>
+        </li>
+      </ul>
+    </div>
+
+    <header class="main__header find__header">
+      <div class="main__header--menu">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        <h4>Find</h4>
+        <i class="fa-solid fa-gear"></i>
+      </div>
+    </header>
+
+    <main class="main__screen find__screen">
+      <div class="icons-row">
+        <div class="icons-row__icon">
+          <i class="fa-solid fa-qrcode fa-xl"></i>
+          <span> QR code </span>
+        </div>
+        <div class="icons-row__icon">
+          <i class="fa-regular fa-address-book fa-xl"></i>
+          <span>
+            Add by <br />
+            contacts
+          </span>
+        </div>
+        <div class="icons-row__icon">
+          <i class="fa-solid fa-fingerprint fa-xl"></i>
+          <span> Add by ID </span>
+        </div>
+        <div class="icons-row__icon">
+          <i class="fa-regular fa-envelope fa-xl"></i>
+          <span> Invite </span>
+        </div>
+      </div>
+
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <div class="recommended-friends__text">
+          <span>You have no recommended friends</span>
+        </div>
+      </div>
+
+      <div class="open-chat">
+        <div class="open-chat__text">
+          <h6 class="open-chat__text--title">Open chat</h6>
+          <div class="open-chat__text--text">
+            <span>Go to Openchat Home</span>
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+
+        <div class="open-chats__content">
+          <div class="open-chats__content--text">
+            <h4 class="open-chats__content--title">
+              그리너리 인테리어 정보 공유
+            </h4>
+            <span class="open-chats__content--subtitle">
+              &num;그리너리 &num;인테리어 &num;초록색</span
+            >
+            <div class="open-chats__content--info">
+              <img
+                src="https://contents.sixshop.com/thumbnails/uploadedFiles/26080/product/image_1499941134242_750.jpg"
+                class="open-chats__content--info-img"
+              />
+              <span class="open-chats__content--members">802 members</span>
+              <span class="open-chats__content--active">Active</span>
+            </div>
+          </div>
+
+          <div class="open-chats__content--img">
+            <img
+              src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/164311477183631850.jpeg?gif=1&w=480&h=480&c=c&q=80"
+            />
+            <div class="open-chats__content--like">
+              <i class="fa-solid fa-heart"></i>
+              <span>824</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="open-chats__content">
+          <div class="open-chats__content--text">
+            <h4 class="open-chats__content--title">다육이 키우기</h4>
+            <span class="open-chats__content--subtitle">
+              &num;다육이 &num;식물 &num;취미</span
+            >
+            <div class="open-chats__content--info">
+              <img
+                src="https://thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/4717/e4d208706fd4c85c01a83f301cac92f924eba7fc35b60676f446e64d057e.jpg"
+                class="open-chats__content--info-img"
+              />
+              <span class="open-chats__content--members">215 members</span>
+              <span class="open-chats__content--active">Active</span>
+            </div>
+          </div>
+
+          <div class="open-chats__content--img">
+            <img
+              src="https://extools.dubuplus.com/app/dubu_shop/docs/imgs/product/130458/md_5107731950_0.png"
+            />
+            <div class="open-chats__content--like">
+              <i class="fa-solid fa-heart"></i>
+              <span>1,224</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav-bar">
+      <div class="nav__list">
+        <a href="./friends.html" class="nav__items">
+          <span class="nav__items--text">Friends</span>
+          <i class="fa-regular fa-user fa-xl"></i>
+        </a>
+        <a href="./chats.html" class="nav__items">
+          <div class="notification"></div>
+          <span class="nav__items--text">Chats</span>
+          <i class="fa-regular fa-comment fa-xl"></i>
+        </a>
+        <a href="./find.html" class="nav__items">
+          <span class="nav__items--text">Find</span>
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        </a>
+        <a href="./more.html" class="nav__items">
+          <span class="nav__items--text">More</span>
+          <i class="fa-solid fa-ellipsis fa-xl"></i>
+        </a>
+      </div>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Website is too wide :(</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/dfb8a37dff.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
